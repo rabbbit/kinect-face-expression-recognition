@@ -1,0 +1,139 @@
+# depslib dependency file v1.0
+1299528358 source:/home/maia/oF/of_preRelease_v0062_linux_FAT/apps/myApps/NiSimpleViewer/src/NiSimpleViewer.cpp
+	<XnOS.h>
+	<GL/glut.h>
+	<math.h>
+	<XnCppWrapper.h>
+
+1301405517 /usr/include/ni/XnOS.h
+	"XnPlatform.h"
+	"XnMacros.h"
+	"XnStatusCodes.h"
+	"Win32/XnOSWin32.h"
+	"Linux-x86/XnOSLinux-x86.h"
+	<new>
+
+1301405517 /usr/include/ni/XnPlatform.h
+	"Win32/XnPlatformWin32.h"
+	"Linux-x86/XnPlatformLinux-x86.h"
+	"Linux-Arm/XnPlatformLinux-Arm.h"
+
+1301405517 /usr/include/ni/Linux-x86/XnPlatformLinux-x86.h
+	<unistd.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+
+1299230040 /usr/include/ni/Linux-Arm/XnPlatformLinux-Arm.h
+	"../Linux-x86/XnPlatformLinux-x86.h"
+
+1301405517 /usr/include/ni/XnMacros.h
+	"XnStatusCodes.h"
+
+1301405517 /usr/include/ni/XnStatusCodes.h
+	"XnStatus.h"
+
+1301405517 /usr/include/ni/XnStatus.h
+	"XnPlatform.h"
+
+1301405517 /usr/include/ni/Linux-x86/XnOSLinux-x86.h
+	<sys/types.h>
+	<stdarg.h>
+	<time.h>
+	<pthread.h>
+	<sys/stat.h>
+	<fcntl.h>
+
+1301405517 /usr/include/ni/XnCppWrapper.h
+	<XnOpenNI.h>
+	<XnCodecIDs.h>
+
+1301405517 /usr/include/ni/XnOpenNI.h
+	"XnTypes.h"
+	"XnContext.h"
+	"XnLicensing.h"
+	"XnUtils.h"
+	"XnPrdNodeInfo.h"
+	"XnQueries.h"
+	"XnPrdNode.h"
+	"XnEnumerationErrors.h"
+	"XnVersion.h"
+	"XnStatusCodes.h"
+	"XnStatus.h"
+
+1301405517 /usr/include/ni/XnTypes.h
+	<XnStatus.h>
+	<XnOS.h>
+
+1301405517 /usr/include/ni/XnContext.h
+	<XnTypes.h>
+	<XnQueries.h>
+	<XnPrdNodeInfoList.h>
+
+1301405517 /usr/include/ni/XnQueries.h
+	"XnTypes.h"
+
+1301405517 /usr/include/ni/XnPrdNodeInfoList.h
+	<XnTypes.h>
+
+1301405517 /usr/include/ni/XnLicensing.h
+	<XnTypes.h>
+
+1301405517 /usr/include/ni/XnUtils.h
+	<XnTypes.h>
+
+1301405517 /usr/include/ni/XnPrdNodeInfo.h
+	<XnTypes.h>
+
+1301405517 /usr/include/ni/XnPrdNode.h
+	<XnTypes.h>
+
+1301405517 /usr/include/ni/XnEnumerationErrors.h
+	<XnTypes.h>
+
+1301405517 /usr/include/ni/XnVersion.h
+	"XnPlatform.h"
+
+1301405517 /usr/include/ni/XnCodecIDs.h
+	"XnTypes.h"
+
+1301181763 source:/home/pawe/kinect/project/maiatoday-NiSimpleViewer-23ad2be/src/NiSimpleViewer.cpp
+	<XnOS.h>
+	<GL/glut.h>
+	<math.h>
+	<XnCppWrapper.h>
+
+1309353177 source:/home/pawe/kinect/project/src/NiSimpleViewer.cpp
+	<XnOpenNI.h>
+	<XnCppWrapper.h>
+	<XnPropNames.h>
+	<cv.h>
+	<highgui.h>
+
+1302739382 source:/home/pawe/kinect/project/src/display.cpp
+
+1301405517 /usr/include/ni/XnLog.h
+	"XnOS.h"
+
+1301405517 /usr/include/ni/XnPropNames.h
+
+1291520124 /usr/local/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/flann/flann.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/legacy/compat.hpp"
+	"opencv2/core/internal.hpp"
+
+1291520124 /usr/local/include/opencv/highgui.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/highgui/highgui.hpp"
+

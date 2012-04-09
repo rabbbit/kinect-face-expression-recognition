@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NiSimpleViewer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/;Data/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NiSimpleViewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NiSimpleViewer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/usr/include/nite" />
+			<Add directory="/usr/include/ni" />
+			<Add directory="/usr/local/include/opencv" />
+		</Compiler>
+		<Linker>
+			<Add option="-lm" />
+			<Add option="-lhighgui" />
+			<Add option="-lopencv_core" />
+			<Add option="-lopencv_imgproc" />
+			<Add option="-lopencv_highgui" />
+			<Add option="-lopencv_ml" />
+			<Add option="-lopencv_video" />
+			<Add option="-lopencv_features2d" />
+			<Add option="-lopencv_calib3d" />
+			<Add option="-lopencv_objdetect" />
+			<Add option="-lopencv_contrib" />
+			<Add option="-lopencv_legacy" />
+			<Add option="-lopencv_flann" />
+			<Add library="glut" />
+			<Add library="OpenNI" />
+			<Add library="XnVNite" />
+		</Linker>
+		<Unit filename="bin/Data/SamplesConfig.xml">
+			<Option virtualFolder="Data/" />
+		</Unit>
+		<Unit filename="src/NiSimpleViewer.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/display.cpp" />
+		<Extensions>
+			<code_completion>
+				<search_path add="/usr/local/include/opencv" />
+			</code_completion>
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

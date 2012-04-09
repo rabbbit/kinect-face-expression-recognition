@@ -1,0 +1,5 @@
+Project tries to see if it is possible to dynamically (live) track facial expressions using Kinect 3d. 
+
+It's old ( prior to official SDK ), using OpenNI & Nite. The work is finished - will not be continued. 
+
+Also, C++ is not my strongest feature, so be aware that looking at my code might cause nightmares ;) 
